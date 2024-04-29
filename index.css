@@ -1,1 +1,6 @@
-
+.contenitore img {
+  display: block;
+  margin:0 auto;
+  width: 300;
+  height: auto;
+}
