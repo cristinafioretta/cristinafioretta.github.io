@@ -5,47 +5,64 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">	
 <title>Formula 1</title>
-<img src="F1.svg.png" alt="Foto" style="float:left;width:90px;">
-<h1 style="font-family:Arial; font-size=20px">FORMULA 1</h1>
-<style>
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: red;
-}
-li {
-  float: left;
-}
-li a {
-  display: block;
-  color: black;
-  text-align: center;
-  padding: 20px;
-  text-decoration: none;
-}
-li a:hover:not(.active) {
-  background-color: white;
-}
-.active {
-  background-color: white;
-}
-.container2 {
-    width: 100%; 
-    display: flex; 
-    justify-content: center;
-</style>
+ <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: red;
+        }
+        li {
+            float: left;
+        }
+        li a {
+            display: block;
+            color: black;
+            text-align: center;
+            padding: 20px;
+            text-decoration: none;
+        }
+        li a:hover:not(.active) {
+            background-color: white;
+        }
+        .active {
+            background-color: white;
+        }
+        .container2 {
+            width: 100%; 
+            display: flex; 
+            justify-content: center;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            width: 100%;
+            position: fixed;
+            bottom: 0;
+        }
+    </style>
 </head>
-  
 <body>
+
+<header>
+    <img src="F1.svg.png" alt="Foto" style="float:left;width:90px;">
+    <h1 style="font-family:Arial; font-size:20px">FORMULA 1</h1>
+</header>
+
 <ul>
-  <li><a class="active" href="index.html">Home</a></li>
-  <li><a href="piloti.html">Piloti</a></li>
-  <li><a href="circuiti.html">Circuiti</a></li>
-  <li><a href="calendario.html">Calendario 2024</a></li>
+    <li><a class="active" href="index.html">Home</a></li>
+    <li><a href="piloti.html">Piloti</a></li>
+    <li><a href="circuiti.html">Circuiti</a></li>
+    <li><a href="calendario.html">Calendario 2024</a></li>
 </ul>
-</body>
   
 <p style="font-size:19px;font-family:times new roman;text-align:left;">La Formula 1 è la massima categoria delle corse automobilistiche monoposto a livello mondiale, regolamentata dalla Federazione Internazionale dell'Automobile (FIA). <br>
 Le gare si svolgono su circuiti appositamente progettati o tracciati cittadini e coinvolgono team e piloti provenienti da tutto il mondo. <br>
@@ -54,39 +71,22 @@ I piloti gareggiano per squadre automobilistiche e accumulano punti in base alla
 Alla fine della stagione, il pilota con più punti vince il campionato mondiale dei piloti, mentre la squadra con più punti vince il campionato costruttori. Solitamente partecipano 10 team, ognuno con due piloti per un totale di 20 piloti in ogni stagione. </p>
 
 <div class="container2">
-<table>
-<tr>
-<td>
-    <img src="foto.2.JPG"; width="520"; height="300"></td>
-<td>
-    <img src="foto.3.JPG"; width="520"; height="300"></td>
-</tr>
-</table>
+    <table>
+        <tr>
+            <td><img src="foto.2.JPG" width="520" height="300"></td>
+            <td><img src="foto.3.JPG" width="520" height="300"></td>
+        </tr>
+    </table>
 </div>
 
 <h2 style="font-size:25px;">PNEUMATICI F1</h2>
 <p style="font-family:times new roman;font-size: 19px;"> Per ogni weekend di gara, Pirelli fornisce ai team tre differenti mescole di pneumatici slick, oltre alle intermedie e ai pneumatici full wet. <br>Dal 2022, gli pneumatici hanno una finestra di utilizzo più ampia dei loro predecessori da 13 pollici, senza però sacrificare la fase di riscaldamento, limitano il surriscaldamento e riducono il degrado.<br/> L’innovazione però non si è fermata: nel 2023 è stata creata una nuova mescola C1.<br/>L’intera gamma è composta da sei mescole, numerate da zero a cinque, dalla più dura alla più morbida. Sono conosciute con delle sigle da C0 a C5, dove C sta per ‘compound’ (mescola).</p>
 
-  <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-        }
-        .centered-image {
-            max-width: 100%;
-            max-height: 100%;
-        }
-    </style>
-</head>
-<body>
+<img src="foto.gomme.webp" alt="Immagine" style="display:block;margin:auto;width:50%;">
 
-<img src="foto.gomme.webp" alt="Immagine" class="centered-image"> 
 <footer>
     <p>&copy; 2024 Formula 1</p>
 </footer>
-</html> 
+
+</body>
+</html>
