@@ -251,25 +251,70 @@ li a:hover:not(.active) {
 
 </body>
 
+ <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            text-align: left;
+            font-size: 24px; 
+        }
+        .pilota-info {
+            margin-top: 30px;
+            display: flex; 
+            align-items: center; 
+        }
+        .pilota-info img {
+            width: 200px; /* Imposta la larghezza desiderata per la foto */
+            height: auto;
+            margin-right: 20px; /* Aggiunge spazio a destra della foto */
+        }
+        .didascalia {
+            flex: 1; 
+        }
+        .didascalia p {
+            text-align: right; 
+        }
+    </style>
+</head>
+<body>
+
 <div class="container">
     <h1>Charles Leclerc</h1>
     
     <div class="pilota-info">
         <img src="foto.leclerc.png" alt="Foto Leclerc">
-        <p><strong>Nazionalità:</strong> Monegasca</p>
-        <p><strong>Squadra:</strong> Scuderia Ferrari</p>
-        <p>
-            <strong>Biografia:</strong><br>
-            Charles Leclerc è nato il 16 ottobre 1997 a Monte Carlo, Monaco. Ha iniziato la sua carriera automobilistica nel karting all'età di otto anni, mostrando fin da giovane un talento eccezionale nel mondo delle corse.Nel corso degli anni ha scalato le categorie junior delle corse automobilistiche, guadagnandosi il titolo di campione nella Formula Renault 2.0 nel 2016.Il suo debutto in Formula 1 è avvenuto nel 2018 con il team Alfa Romeo Sauber F1, dove ha subito attirato l'attenzione per le sue prestazioni impressionanti e il suo stile di guida audace. Nel 2019, è stato promosso alla Scuderia Ferrari, diventando il secondo pilota più giovane nella storia del team.
-Oltre alle sue prestazioni in pista, Leclerc è noto per il suo impegno sociale e il suo coinvolgimento nella beneficenza, lavorando per sostenere cause importanti al di fuori del mondo delle corse.
-La sua giovane età, il suo talento innato e la sua determinazione lo rendono una figura iconica nel mondo della Formula 1 e un pilota da tenere d'occhio per il futuro</p>
-        <p>
-            <strong>Statistiche:</strong><br>
-            - GP vinti: 5<br>
-            - Pole position: 23<br>
-            - Podi: 32<br>
-            - Punti ottenuti: 1150<br>
-        </p> </div> </div>
+        <div class="didascalia">
+            <p><strong>Nazionalità:</strong> Monegasca</p>
+            <p><strong>Squadra:</strong> Scuderia Ferrari</p>
+            <p>
+                <strong>Biografia:</strong><br>
+                Charles Leclerc è nato il 16 ottobre 1997 a Monte Carlo, Monaco. Ha iniziato la sua carriera automobilistica nel karting all'età di otto anni, mostrando fin da giovane un talento eccezionale nel mondo delle corse. Nel corso degli anni ha scalato le categorie junior delle corse automobilistiche, guadagnandosi il titolo di campione nella Formula Renault 2.0 nel 2016.
+                <br><br>
+                Il suo debutto in Formula 1 è avvenuto nel 2018 con il team Alfa Romeo Sauber F1, dove ha subito attirato l'attenzione per le sue prestazioni impressionanti e il suo stile di guida audace. Nel 2019, è stato promosso alla Scuderia Ferrari, diventando il secondo pilota più giovane nella storia del team.
+                <br><br>
+                Oltre alle sue prestazioni in pista, Leclerc è noto per il suo impegno sociale e il suo coinvolgimento nella beneficenza, lavorando per sostenere cause importanti al di fuori del mondo delle corse. La sua giovane età, il suo talento innato e la sua determinazione lo rendono una figura iconica nel mondo della Formula 1 e un pilota da tenere d'occhio per il futuro.
+            </p>
+            <p>
+                <strong>Statistiche:</strong><br>
+                <ul>
+                    <li>GP vinti: 5</li>
+                    <li>Pole position: 23</li>
+                    <li>Podi: 32</li>
+                    <li>Punti ottenuti: 1150</li>
+                </ul>
+            </p>
+        </div>
+    </div>
+</div>
 
 </body>
+
 </html>
