@@ -4,40 +4,88 @@
 <link rel="icon" type="image/webp" href="FOTOF1.webp"/>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">	
-<title> Formula 1 </title>
-<style>
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: red;
-}
+<title>I circuiti della Formula 1</title>
 
-li {
-  float: left;
-}
+ <style>
+        body {
+            font-size: 16px; 
+        }
+        @media only screen and (max-width: 600px) {
+            body {
+                font-size: 14px; 
+            }
+        }
+        @media only screen and (min-width: 601px) and (max-width: 1024px) {
+            body {
+                font-size: 18px; 
+            }
+        }
 
-li a {
-  display: block;
-  color: black;
-  text-align: center;
-  padding: 20px;
-  text-decoration: none;
-}
-
-li a:hover:not(.active) {
-  background-color: white;
-}
-</style>
+        @media only screen and (min-width: 1025px) {
+            body {
+                font-size: 20px; 
+            }
+        }
+    </style>
 </head>
-
+ <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: red;
+        }
+        li {
+            float: left;
+        }
+        li a {
+            display: block;
+            color: black;
+            text-align: center;
+            padding: 17px;
+            text-decoration: none;
+        }
+        li a:hover:not(.active) {
+            background-color: white;
+        }
+        .active {
+            background-color: white;
+        }
+        .container2 {
+            width: 100%; 
+            display: flex; 
+            justify-content: center;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 8px 0;
+            width: 100%;
+            position: fixed;
+            bottom: 0;
+            height: 5%;
+        }
+    </style>
+</head>
 <body>
+
+<header>
+    <img src="F1.svg.png" alt="Foto" style="float:left;width:90px;">
+    <h1 style="font-family:Arial; font-size:25px">I CIRCUITI</h1>
+</header>
+
 <ul>
-  <li><a class="active" href="index.html">Home</a></li>
-  <li><a href="piloti.html">Piloti</a></li>
-  <li><a href="circuiti.html">Circuiti</a></li>
-  <li><a href="calendario.html">Calendario 2024</a></li>
+    <li><a class= href="index.html">Home</a></li>
+    <li><a href="piloti.html">Piloti</a></li>
+    <li><a href="active" "circuiti.html">Circuiti</a></li>
+    <li><a href="calendario.html">Calendario 2024</a></li>
 </ul>
 </body>
 </html>
