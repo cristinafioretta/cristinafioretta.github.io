@@ -87,7 +87,7 @@
     <li><a class="active" href="circuiti.html">Circuiti</a></li>
     <li><a class="calendario.html">Calendario 2024</a></li>
 </ul>
-  <style>
+ <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
@@ -98,55 +98,52 @@
             border-collapse: collapse;
         }
         th, td {
-            border: 1px solid #ddd;
             padding: 8px;
             text-align: left;
+            border-bottom: 1px solid #ddd;
         }
-        th {
-            background-color: #f2f2f2;
+        td {
+            position: relative;
+            vertical-align: top;
         }
-        tr:nth-child(even) {
-            background-color: #f2f2f2;
-        }
-        tr:nth-child(odd) {
-            background-color: #e6e6e6;
-        }
-       img {
-            width: 300px; /* Larghezza desiderata */
-            height: auto; /* Altezza automatica per mantenere le proporzioni */
+        img {
+            max-width: 100%;
+            height: auto;
             display: block;
-            margin: 0 auto; /* Centrare l'immagine all'interno della cella */
+            margin: 0 auto;
         }
-    .didascalia {
-            text-align: center;
-            margin-top: 5px;
+        .didascalia {
+            position: absolute;
+            top: 0;
+            right: 0;
+            padding: 8px;
+            background-color: rgba(0, 0, 0, 0.5);
+            color: #fff;
+            font-size: 14px;
+            cursor: pointer;
         }
     </style>
 </head>
 <body>
-
+ 
 <table>
     <tbody>
         <tr>
-            <td><a href="pre-stagionale.testing"><img src="circuito.bahrain.avif" alt="Pre-stagionale"></a></td>
-            <td>Bahrain International Circuit</td>
-            <td><a href="evento1.html">Maggiori informazioni sul circuito</a></td>
-        </tr>
+            <td><img src="circuito.bahrain.avif" alt="Pre-stagionale"></a></td>
+            <td><a href="https://www.formula1.com/en/racing/2024/Pre-Season-Testing/Circuit.html">Bahrain International Circuit</td>
+           </tr>
         <tr>
-            <td><a href="evento2.html"><img src="immagine2.jpg" alt="Bahrain"></a></td>
-            <td>Bahrain International Circuit</td>
-            <td><a href="evento2.html">Maggiori informazioni sul circuito</a></td>
-        </tr>
+            <td><img src="circuito.bahrain.gara.avif" alt="Bahrain"></a></td>
+            <td><a href="https://www.formula1.com/en/racing/2024/Bahrain/Circuit.html">Bahrain International Circuit</td>
+           </tr>
       <tr>
-            <td><a href="evento.3.html"><img src="circuito.bahrain.avif" alt="Saudi Arabia"></a></td>
-            <td>Jeddah Corniche Circuit</td>
-            <td><a href="evento1.html">Maggiori informazioni sul circuito</a></td>
-        </tr>
+            <td><img src="arabia.saudita.avif" alt="Saudi Arabia"></a></td>
+            <td><a href="https://www.formula1.com/en/racing/2024/Saudi_Arabia/Circuit.html">Jeddah Corniche Circuit</td>
+         </tr>
       <tr>
-            <td><a href="evento.4.html"><img src="circuito.bahrain.avif" alt="Australia"></a></td>
-            <td>Melbourne Grand Prix Circuit</td>
-            <td><a href="evento1.html">Maggiori informazioni sul circuito</a></td>
-        </tr>
+            <td><img src="circuito.bahrain.avif" alt="Australia"></a></td>
+            <td><a href="https://www.formula1.com/en/racing/2024/Australia/Circuit.html">Melbourne Grand Prix Circuit</td>
+             </tr>
       <tr>
             <td><a href="evento.5.html"><img src="circuito.bahrain.avif" alt="Giappone"></a></td>
             <td>Suzuka International Racing Course</td>
