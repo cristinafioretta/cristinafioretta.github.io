@@ -113,7 +113,13 @@
         .caption a {
             color: #fff;
             text-decoration: none;
-        }
+       }
+  td {
+    max-width: 300px; /* Imposta una larghezza massima per le celle */
+    overflow: hidden; /* Nasconde il testo in eccesso oltre la larghezza massima */
+    text-overflow: ellipsis; /* Aggiunge un'ellissi (...) al testo che supera la larghezza massima */
+    white-space: nowrap; /* Impedisce al testo di andare a capo */
+}
     </style>
 </head>
 <body>
